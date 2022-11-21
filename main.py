@@ -57,7 +57,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
         sock.send(f"{distance}".encode())
         print(sock.recv(20))
 
-        plt.pause(0.2)
+        plt.pause(0.8)
 
         # char = input("enter to continue...")
 
